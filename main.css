@@ -1,0 +1,88 @@
+body {
+	background: linear-gradient(45deg, rgba(66, 183, 245, 0.8) 0%, rgba(66, 245, 189, 0.4) 100%);
+	font-family: "Roboto", sans-serif;
+}
+
+form {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+	background: #fff;
+	width: 500px;
+	background-color: fff;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	padding: 5%;
+	box-sizing: border-box;
+
+	text-align: center;
+}
+
+.form-entry:not(:last-child) {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 0 20px;
+}
+
+button {
+	outline: none;
+	background: #4285F4;
+	width: 100%;
+	border: 0;
+	border-radius: 4px;
+	padding: 12px 20px;
+	color: #FFFFFF;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 500;
+	line-height: inherit;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+input,
+select {
+	outline: none;
+	display: block;
+	background: rgba(0, 0, 0, 0.1);
+	width: 100%;
+	border: 0;
+	border-radius: 4px;
+	box-sizing: border-box;
+	padding: 12px 20px;
+	color: rgba(0, 0, 0, 0.6);
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 500;
+	line-height: inherit;
+	transition: 0.3s ease;
+}
+
+select option[value=""] {
+	display: none;
+}
+
+label {
+	display: block;
+	margin: 0 0 5px;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+
+a {
+	color: #4285F4;
+	font-size: 14px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button#ok {
+	margin-bottom: 10px;
+}

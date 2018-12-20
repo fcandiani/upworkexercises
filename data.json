@@ -1,0 +1,49 @@
+{
+	"id": 1,
+	"label": "a",
+	"childs": [
+		{
+			"id" : 2,
+			"label" : "B",
+			"childs" : [
+				{
+					"id" : 5,
+					"label" : "E",
+					"childs": []
+				},
+				{
+					"id" : 6,
+					"label" : "F",
+					"childs": []
+				},
+				{
+					"id" : 7,
+					"label" : "G",
+					"childs": []
+				}
+			]
+		},
+		{
+			"id" : 3,
+			"label" : "C",
+			"childs": []
+		},
+		{
+			"id" : 4,
+			"label" : "D",
+			"childs": [
+				{
+					"id" : 8,
+					"label" : "H",
+					"childs": []
+				},
+				{
+					"id" : 9,
+					"label" : "I",
+					"childs": []
+				}
+			]
+		}
+
+	]
+}
